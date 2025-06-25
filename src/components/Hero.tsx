@@ -1,13 +1,13 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   const scrollToAppointment = () => {
-    const element = document.getElementById('appointment');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    navigate('/agendamento');
   };
 
   return (
@@ -75,7 +75,7 @@ const Hero = () => {
           <div className="relative animate-fade-in">
             <div className="relative z-10 bg-white rounded-3xl shadow-2xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1626736985842-eab881e2b929?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="Clínica Odontológica Moderna"
                 className="w-full h-[500px] object-cover"
               />

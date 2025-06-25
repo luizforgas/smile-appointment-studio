@@ -9,7 +9,7 @@ const Testimonials = () => {
     {
       name: 'Maria Silva',
       age: 32,
-      photo: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 5,
       text: 'Excelente atendimento! A equipe é muito profissional e o ambiente é super limpo e moderno. Meu tratamento de clareamento ficou perfeito!',
       treatment: 'Clareamento Dental'

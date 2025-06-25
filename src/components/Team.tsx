@@ -25,7 +25,7 @@ const Team = () => {
     {
       name: 'Dra. Lucia Ferreira',
       specialty: 'Odontopediatra | Preventiva',
-      photo: 'https://images.unsplash.com/photo-1594824694996-d7d6e4e5c4a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      photo: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       experience: '10 anos',
       education: 'UNESP - Especialização em Odontopediatria',
       description: 'Dedicada ao cuidado infantil, criando experiências positivas e educativas para as crianças.',

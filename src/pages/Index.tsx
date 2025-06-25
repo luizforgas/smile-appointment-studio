@@ -5,7 +5,6 @@ import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Testimonials from '@/components/Testimonials';
 import Team from '@/components/Team';
-import Appointment from '@/components/Appointment';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -46,7 +45,6 @@ const Index = () => {
         <Services />
         <Testimonials />
         <Team />
-        <Appointment />
       </main>
       <Footer />
     </div>
